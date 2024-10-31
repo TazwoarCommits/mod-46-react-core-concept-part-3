@@ -1,9 +1,9 @@
 import { useState } from "react";
 
 const StatefulForm = () => {
-    const [text, setText] = useState(null);
+    const [text, setText] = useState("");
     const [email, setEmail] = useState("");
-    const [password, setPassword] = useState(null);
+    const [password, setPassword] = useState("");
     const [error , setError] = useState("");
 
     const handleTextChange = e => {
